@@ -96,6 +96,7 @@ The project has a few dependencies that need to be installed:
 
 ## Notes
 
+- Create an additional folder called `attachments` in the project folder or change the directory in the `app.py` where all attachments will be uploaded before sending emails.
 - Ensure that your SMTP server is properly configured and accessible from the machine running this application.
 - The application throttles email sending to one email per second to avoid overwhelming the SMTP server.
 
