@@ -1,6 +1,3 @@
-Sure! Here is the README content formatted as a markdown file:
-
----
 
 ```markdown
 # Mail Agent
@@ -108,6 +105,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you'd like to contribute to this project, feel free to submit a pull request or open an issue on the repository.
 ```
 
----
-
-You can save this content as a `README.md` file in your project directory.
