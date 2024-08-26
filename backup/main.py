@@ -10,7 +10,7 @@ def send_custom_emails(heading, message_template):
         full_message = f"{salutations}\n\n{customized_message}"
         send_email(email, heading, full_message)
         print(f"Email sent to {name} at {email}")
-        time.sleep(3)  # Throttle to 1 email per minute to avoid rate limits
+        time.sleep(1)  # Throttle to 1 email per sec to avoid rate limits
 
 if __name__ == "__main__":
     # This can be triggered through the web interface, not directly here

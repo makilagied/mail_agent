@@ -3,8 +3,8 @@
 
 
 # def send_email(to_email, subject, body):
-#     sender_email = "kimbwetani@gmail.com"
-#     sender_password = "gzfu dpdk eepm yzsa"
+#     sender_email = ""
+#     sender_password = ""
 
 #     message = MIMEText(body)
 #     message["Subject"] = subject
@@ -26,9 +26,9 @@
 # from db_conn import fetch_clients
 
 # def send_email(to_email, subject, body):
-#     smtp_server = "192.168.1.10"  
+#     smtp_server = ""  
 #     smtp_port = 25  
-#     sender_email = "info@itrust.co.tz"
+#     sender_email = ""
 #     sender_password = ""  
 
 #     message = MIMEText(body)
